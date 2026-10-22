@@ -1,0 +1,19 @@
+{
+  "name": "byteplus-iga-pages",
+  "version": "0.1.0",
+  "description": "Develop and deploy frontend and full-stack applications with BytePlus IGA Pages.",
+  "author": {
+    "name": "BytePlus IGA Pages"
+  },
+  "homepage": "https://docs.byteplus.com/en/docs/iga",
+  "license": "MIT",
+  "keywords": [
+    "byteplus-iga-pages",
+    "deployment",
+    "frontend",
+    "full-stack",
+    "serverless"
+  ],
+  "skills": "./skills/",
+  "hooks": "./com.github.copilot/hooks/hooks.json"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "byteplus-iga-pages",
+  "owner": {
+    "name": "BytePlus IGA Pages"
+  },
+  "metadata": {
+    "description": "BytePlus IGA Pages guidance for AI coding agents."
+  },
+  "plugins": [
+    {
+      "name": "byteplus-iga-pages",
+      "source": "./",
+      "description": "Develop and deploy frontend and full-stack applications with BytePlus IGA Pages.",
+      "version": "0.1.0"
+    }
+  ]
+}

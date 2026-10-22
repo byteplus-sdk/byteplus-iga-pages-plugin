@@ -1,0 +1,12 @@
+{
+  "name": "byteplus-iga-pages",
+  "version": "0.1.0",
+  "description": "Develop and deploy frontend, full-stack, and AI agent applications on BytePlus IGA Pages.",
+  "settings": [
+    {
+      "name": "Disable usage statistics",
+      "description": "Set to 1 to disable plugin usage statistics.",
+      "envVar": "IGA_PAGES_PLUGIN_TELEMETRY_DISABLED"
+    }
+  ]
+}
