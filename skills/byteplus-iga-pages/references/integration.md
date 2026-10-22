@@ -89,7 +89,7 @@ bp-iga pages integration configure aigateway update \
 - **Credentials:** fill in real credentials locally. `view` output is masked and uses a display schema, so it cannot be reused directly as an update file. Do not commit credential-bearing `models.json` files or print their contents in logs.
 - **Confirmation:** JSON `update` without `--yes` returns `needs_confirmation` with a masked preview and does not write changes. Rerun with `--yes` after authorization. Non-TTY updates require `--yes`; TTY updates prompt when it is omitted.
 - After a successful update, the CLI directs you to deploy for changes to take effect and to run `bp-iga pages env pull` when local configuration needs refreshing.
-- BytePlus checks gateway service activation and identity verification before submitting an update. Verification status `1` or `2` passes; otherwise, accounts on the console TCC `whiteList` are exempt from verification. The whitelist does not exempt service activation. Resolve access errors before retrying.
+- BytePlus checks gateway service activation and identity verification before submitting an update. Resolve access errors before retrying.
 
 ## Deploy orchestration
 
